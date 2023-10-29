@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> Чат для общения </title>
+    <link rel="stylesheet" href="css/style_chat.css"> 
+    <script src="./js/app.js" defer></script>
+    <script src="./js/appc.js" defer></script> 
+    <script> alert("Добро пожаловать на страницу с чатом!")</script> 
+</head>
+<body>
+
+<header>
+
+    <div>Чат для общения о домашних животных</div>
+
+    <nav> 
+    <a href="index.html">Главная</a>
+    <a href="chat.html">Чат</a>
+    </nav>
+
+</header>
+
+    <main>
+        <h2>Чат</h2>
+        <input type="text" placeholder="Введите сообщение" id="name">
+        <button onclick="my_name()">Ввод</button>
+        <p id="result">Результат:</p>
+        <p id="error"></p>
+        
+        <h2>Калькулятор</h2>
+
+        <input type="text" placeholder="Введите число x" id="num1">
+        <input type="text" placeholder="Введите число y" id="num2">
+        <button onclick="clcltor_add()">Сложить</button>
+        <p><input type="text" readonly placeholder="Результат" id="numResult_add"></p>
+
+        <input type="text" placeholder="Введите число x" id="num3">
+        <input type="text" placeholder="Введите число y" id="num4">
+        <button onclick="clcltor_sub()">Вычесть</button>
+        <p><input type="text" readonly placeholder="Результат" id="numResult_sub"></p>
+
+        <input type="text" placeholder="Введите число x" id="num5">
+        <input type="text" placeholder="Введите число y" id="num6">
+        <button onclick="clcltor_div()">Разделить</button>
+        <p><input type="text" readonly placeholder="Результат" id="numResult_div"></p>
+
+        <input type="text" placeholder="Введите число x" id="num7">
+        <input type="text" placeholder="Введите число y" id="num8">
+        <button onclick="clcltor_mult()">Умножить</button>
+        <p><input type="text" readonly placeholder="Результат" id="numResult_mult"></p>
+         
+    </main>
+
+    <footer>&copy;2023</footer>
+    
+</body>
+</html>
